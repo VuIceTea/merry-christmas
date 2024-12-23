@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
 @font-face {
-    font-family: 'Merry'; 
-    src: url('./Merry.ttf') format('truetype'); 
-    font-weight: normal; 
-    font-style: normal; 
+  font-family: 'Merry';
+  src: url('./Merry.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   html,
   body {
     overflow: hidden;
@@ -52,9 +54,11 @@ body {
   20% {
     text-shadow: 0 0 5px #f7b3b3, 0 0 10px #f7b3b3, 0 0 20px #f7b3b3;
   }
+
   50% {
     text-shadow: 0 0 10px #f7b3b3, 0 0 15px #f7b3b3, 0 0 30px #ff0000;
   }
+
   80% {
     text-shadow: 0 0 5px #f7b3b3, 0 0 10px #f7b3b3, 0 0 20px #f7b3b3;
   }
@@ -82,15 +86,19 @@ body {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   25% {
     transform: translate(-50%, -50%) rotate(-5deg);
   }
+
   50% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   75% {
     transform: translate(-50%, -50%) rotate(5deg);
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
@@ -126,7 +134,7 @@ body {
 #showButton {
   background-color: #f56060;
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   padding: 15px 32px;
   border: none;
@@ -138,11 +146,13 @@ body {
   visibility: hidden;
   animation: showButton 5s forwards;
 }
+
 @keyframes showButton {
   0% {
     opacity: 0;
     visibility: hidden;
   }
+
   100% {
     opacity: 1;
     visibility: visible;
@@ -163,6 +173,7 @@ body {
     bottom: 60px;
   }
 }
+
 .hidden {
   display: none;
 }
@@ -220,22 +231,25 @@ body {
     left: calc(100% * var(--random-x));
     opacity: 1;
   }
+
   100% {
     top: 100vh;
     left: calc(100% * var(--random-x));
     opacity: 0;
   }
 }
+
 a {
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
   color: #ffffff00;
 }
+
 h4 {
   font-size: 26px;
   line-height: 1px;
@@ -337,7 +351,7 @@ h4 {
 
 .card .details p {
   font-size: 15px;
-  line-height: 5px;
+  line-height: 1;
   transform: rotate(-10deg);
   padding: 0 0 0 20px;
 }
