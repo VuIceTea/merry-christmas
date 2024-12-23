@@ -25,11 +25,77 @@ body {
 }
 
 @media (max-width: 768px) {
+  .christmas-message {
+    font-size: 40px;
+    /* Giảm kích thước chữ */
+    top: 10px;
+  }
 
-  html,
-  body {
-    overflow: hidden;
-    height: 100%;
+  .tree-icon {
+    width: 70px;
+    /* Giảm kích thước cây thông */
+  }
+
+  .container {
+    bottom: 20px;
+    /* Tăng khoảng cách nút với đáy màn hình */
+  }
+
+  #showButton {
+    font-size: 14px;
+    /* Giảm kích thước chữ nút */
+    padding: 10px 20px;
+  }
+
+  .card {
+    width: 90%;
+    /* Chiều rộng card chiếm 90% màn hình */
+    height: auto;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card .details p {
+    font-size: 13px;
+    /* Giảm kích thước font trong nội dung */
+    padding: 0 0 0 10px;
+  }
+
+  .card .details h4 {
+    font-size: 20px;
+  }
+
+  .close-btn {
+    font-size: 20px;
+    /* Điều chỉnh kích thước nút đóng */
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .christmas-message {
+    font-size: 30px;
+    /* Giảm thêm kích thước chữ cho màn hình rất nhỏ */
+  }
+
+  .tree-icon {
+    width: 50px;
+  }
+
+  #showButton {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .card .details p {
+    font-size: 12px;
+    /* Tiếp tục giảm kích thước font chữ */
+    line-height: 1.2;
+  }
+
+  .container {
+    bottom: 15px;
   }
 }
 
